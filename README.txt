@@ -1,0 +1,1 @@
+Hi, this is task 6, we are working on a virtual assistant.
