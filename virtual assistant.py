@@ -48,8 +48,8 @@ class Record:
     def edit_phone(self, old_number, new_number):
         phone_to_edit = self.find_phone(old_number)
         if phone_to_edit:
-            self.remove_phone(old_number)
             self.add_phone(new_number)
+            self.remove_phone(old_number)
         else:
             raise ValueError("Old phone number not found.")
         
